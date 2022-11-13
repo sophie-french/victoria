@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(Images/gallery.jpg);
+    background-size: cover;
+}
+
+.gallery {
+    height: 800px;
+    grid-column: 1/4;
+}
+
+#artemisia {
+    position: relative;
+    float: left;
+    left: 150px;
+    top: 70px;
+}
+
+#isabella {
+    position: relative;
+    float: right;
+    right: 30px;
+    top: 40px;
+}
+
+#elizabeth {
+    position: relative;
+    float: left;
+    left: 130px;
+    top: 8px;
+}
+
+#ginevra {
+    position: relative;
+    float: left;
+    left: 70px;
+    top: 70px;
+}

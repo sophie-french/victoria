@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(#D64000, #FF8833, white, #FD86CE, #C70379);
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.wrapper {
+    padding-right: 11px;
+
+}
+
+.CastleHeader {
+    background-image: url(images/stone2_colour.jpg);
+    background-size: 200px;
+    text-align: center;
+}
+
+.CastleHeader {
+    color: lavenderblush;
+    text-shadow: 2px 2px 3px black;
+}
+
+.Nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 11pt;
+}
+
+.SideBar {
+    border: 3px ridge #8d90e2;
+    background-image: url(Images/gingham2.jpg);
+    background-size: 700px;
+    height: 200px;
+}
+
+.SideBar h3 {
+    text-align: center;
+    color: indigo;
+    line-height: 16pt;
+}
+
+.Blog {
+    /* Image by boggus on Freepik */
+    background-image: url(Images/AGED_PAPER_tall.jpg);
+    background-size: contain;
+    border: 3px ridge peru;
+}
+
+.Blog h2 {
+    text-align: center;
+}
+
+.Blog h3 {
+    text-align: left;
+}
+
+.Blog hr {
+    border-top: 1px dashed #C70379;
+}
+
+.float {
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    background-image: url("Images/AGED_PAPER_tall.jpg");
+    border: peru 5px outset;
+    padding: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2vh;
+}
+
+footer p {
+    color: peachpuff;
+    font-size: 9pt;
+}
+
+td {
+    text-align: center
+}
+
+.tilt {
+    transition: 0.2s;
+}
+
+.tilt:hover {
+    transform: rotate(4deg);
+}
+
+figcaption {
+    text-align: center;
+    font-size: 10pt;
+    color: dimgrey;
+}

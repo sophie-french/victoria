@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.37">
+    <title>Outside</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+        body {
+            /*"Secret Passage 2" by RAJESH misra  is licensed under Public Domain*/
+            background-image: url(Images/passage.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+            color: mediumpurple;
+            font-size: 20px;
+            font-family: 'EB Garamond', serif;
+            text-shadow: 1px 1px 2px black;
+
+            padding: 10px 30px 0 50px;
+        }
+
+        a {
+            color: lavenderblush;
+        }
+
+        .link {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+    <script type="text/javascript">
+        function randomlinks() {
+            var myrandom = Math.round(Math.random() * 7)
+            var links = new Array()
+            links[0] = "garden.html"
+            links[1] = "manifesto.html"
+            links[2] = "gallery.html"
+            links[3] = "about.html"
+            links[4] = "guestbook.html"
+            links[5] = "home.html"
+            links[6] = "tailors.html"
+            links[7] = "castles.html"
+
+            window.location = links[myrandom]
+        }
+    </script>
+</head>
+
+<body>
+
+    <h3>
+        Hang on... you've found a hidden corridor</h3>
+    <h3>You stand in front of a mysterious secret passageway that's been flooding with water lately. It's unclear what's causing the water to flood the passageway, but it appears to be getting worse. At the end of the passage you can see a door faintly aglow with light. You're not sure what's on the other side, but you know you need to find out.</h3>
+
+    <h3><a href="home.html" target="main">Go back to The Great Hall</a>----<a onClick="randomlinks()" target="main" class="link" onClick="randomlinks()" target="main">Wade through to the door</a></h3>
+
+
+</body></html>
